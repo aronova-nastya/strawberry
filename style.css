@@ -1,0 +1,84 @@
+.window {
+    font-family: 'Bradley Hand', cursive;
+    border: 1px solid lightslategrey;
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.window-header {
+      display: inline-block;
+      justify-content:space-between;
+      background: rgb(243, 179, 160);
+      width: 800px;
+      height: 70px;
+      border-bottom:1px solid lightslategrey;
+}
+
+.window-header-topic {
+      display: block;
+      font-size: 20px;
+      font-weight: bold;
+      margin: 10px 10px 0 10px;
+}
+
+.window-creator-topic {
+    display: block;
+    font-size: 17px;
+    margin: -5px 10px 5px 10px;
+    padding-top: 5px;
+}
+
+.content {
+    width: 800px;
+    height: 530px;
+    overflow-y: scroll;
+}
+
+.message {
+    display: flex;
+    min-width: 730px;
+    justify-content: space-around;
+}
+
+.message-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  rgb(219, 135, 109);
+    border-right: 1px solid lightslategrey;  
+    min-width: 150px; 
+}
+
+.message-initial {
+    border: 2px solid lightslategrey;
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background: rgb(243, 179, 160);
+}
+
+.message-initial p {
+    margin: 8px 0px 10px 10px;
+}
+
+.message-date {
+    margin-left: 5px;
+}
+
+.message-body {
+    width: 730;
+    background: rgb(219, 135, 109);
+    padding: 15px;
+}
+
+.message-name {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.message-text {
+    padding: 10px;
+    background: rgb(234, 153, 129);
+    border: 1px solid black;
+}
