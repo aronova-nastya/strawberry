@@ -3,7 +3,8 @@
     border: 1px solid lightslategrey;
     width: 800px;
     height: 600px;
-    margin: 0 auto;
+    margin: 0 auto;    
+    background: rgb(243, 179, 160);
 }
 
 .window-header {
@@ -29,10 +30,17 @@
     padding-top: 5px;
 }
 
+.window-close {
+    display: inline-block;
+    float: right;
+    margin: 5px 10px;
+}
+
 .content {
-    width: 800px;
-    height: 530px;
+    width: 780px;
+    height: 510px;
     overflow-y: scroll;
+    margin: 10px;
 }
 
 .message {
