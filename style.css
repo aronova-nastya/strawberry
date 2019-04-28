@@ -40,13 +40,11 @@
     width: 780px;
     height: 510px;
     overflow-y: scroll;
-    margin: 10px;
+    padding: 10px;
 }
 
 .message {
     display: flex;
-    min-width: 730px;
-    justify-content: space-around;
 }
 
 .message-info {
@@ -64,20 +62,20 @@
     height:40px;
     border-radius:50%;
     background: rgb(243, 179, 160);
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
 
-.message-initial p {
-    margin: 8px 0px 10px 10px;
-}
 
 .message-date {
     margin-left: 5px;
 }
 
 .message-body {
-    width: 730;
     background: rgb(219, 135, 109);
     padding: 15px;
+    flex-grow: 1;
 }
 
 .message-name {
@@ -89,4 +87,13 @@
     padding: 10px;
     background: rgb(234, 153, 129);
     border: 1px solid black;
+}
+
+.creator-name {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.creator-date {
+    display: inline-block;
 }
